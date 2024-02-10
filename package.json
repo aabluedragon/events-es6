@@ -1,5 +1,5 @@
 {
-  "name": "events",
+  "name": "events-es6",
   "version": "3.3.0",
   "description": "Node's event emitter for all engines.",
   "keywords": [
