@@ -21,6 +21,8 @@
 
 'use strict';
 
+Object.defineProperty(exports, "__esModule", { value: true });
+
 var R = typeof Reflect === 'object' ? Reflect : null
 var ReflectApply = R && typeof R.apply === 'function'
   ? R.apply
@@ -53,8 +55,8 @@ var NumberIsNaN = Number.isNaN || function NumberIsNaN(value) {
 function EventEmitter() {
   EventEmitter.init.call(this);
 }
-module.exports = EventEmitter;
-module.exports.once = once;
+exports.default = EventEmitter;
+exports.once = once;
 
 // Backwards-compat with node 0.10.x
 EventEmitter.EventEmitter = EventEmitter;
